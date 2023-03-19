@@ -1,0 +1,170 @@
+
+
+/* BOOTSTRAP SETTINGS SECTION */
+
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; }
+
+/* FONTS LOAD SECTION */
+
+@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
+@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
+@font-face { src: url("../fonts/BlackerSansDisplay-Book.woff2") format("woff2"); font-family: "blacekers"; font-weight: 700; font-style: italic; }
+@font-face { src: url("../fonts/DINRoundPro-Medi.woff2") format("woff2"); font-family: "mlp"; font-weight: 700; font-style: italic; }
+/* GENERAL CSS SETTINGS */
+
+::placeholder { color: #666; }
+::selection { background-color: var(--accent); color: #fff; }
+input, textarea { outline: none; }
+input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
+input:required:valid, textarea:required:valid { border-color: green; }
+
+body {
+	font-family: var(--userfont);
+	font-size: var(--regular-text);
+	line-height: var(--lineheight);
+	color: var(--text);
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	background-color: rgb(255, 230, 202);
+}
+
+/* USER STYLES */
+
+.image {
+	max-width: 100%;
+	margin-bottom: var(--bs-gutter-x);
+	border-radius: 4px;
+}
+
+.accent {
+	color: var(--accent);
+	font-weight: bold;
+}
+
+.top_menu {
+	background-color: rgba(225, 208, 194, 0.808);
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	left: 0%;
+	font-family: blacekers;
+	overflow: hidden;
+
+}
+
+.texet{
+	font-family: blacekers;
+	position: absolute;
+	left: 43.5%;
+	top: 13%;
+}
+.logo{
+ height: 50%; 
+ position: relative; 
+ left: 2.5%;
+ top: 20%;
+}
+
+.block{
+position: absolute;
+width: 100%;
+height: 25%;
+}
+
+   
+
+td{
+	font-family: mlp;
+	 font-size: 15px;
+	top: 50%;
+}
+.main_image{
+	position: inherit;
+	height: 20%;
+	width: 100%;
+}
+.end{
+position: relative;
+left: 5%;
+top: 15%;
+}
+.block{
+
+	position: relative;
+	background-color: rgb(224, 201, 180);
+	top: 100%;
+	width: 100%;
+	height: 150px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card_watch{
+	background-color: rgb(216, 190, 145);
+	height: 25%;
+	width: 50%;
+	top: 500px;
+	position: inherit;
+   border-radius: 5px;
+}
+.image{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 50%;
+    top: 55%;
+    border-radius: 5px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-animation: imagesFading 8s infinite;
+    -moz-animation: imagesFading 8s infinite;
+    -o-animation: imagesFading 8s infinite;
+    animation: imagesFading 8s infinite;
+}
+
+.image_01 {background-image: url(/images/1fsCPlnnbec.jpg); animation-delay: 6s;}
+
+.image_02 {background-image: url(/images/MEQ1YQkyYLY.jpg); animation-delay: 4s;}
+
+.image_03 {background-image: url(/images/TdKwc7Sf5fI.jpg); animation-delay: 2s;}
+
+.image_04 {background-image: url(/images/zK4fwF-JeqU.jpg); animation-delay: 0s;}
+
+@keyframes imagesFading {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
