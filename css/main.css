@@ -143,13 +143,13 @@ html, body{
     animation: imagesFading 8s infinite;
 }
 
-.image_01 {background-image: url(/images/1fsCPlnnbec.jpg); animation-delay: 6s;}
+.image_01 {background-image: url(./images/1fsCPlnnbec.jpg); animation-delay: 6s;}
 
-.image_02 {background-image: url(/images/MEQ1YQkyYLY.jpg); animation-delay: 4s;}
+.image_02 {background-image: url(./images/MEQ1YQkyYLY.jpg); animation-delay: 4s;}
 
-.image_03 {background-image: url(/images/TdKwc7Sf5fI.jpg); animation-delay: 2s;}
+.image_03 {background-image: url(./images/TdKwc7Sf5fI.jpg); animation-delay: 2s;}
 
-.image_04 {background-image: url(/images/zK4fwF-JeqU.jpg); animation-delay: 0s;}
+.image_04 {background-image: url(./images/zK4fwF-JeqU.jpg); animation-delay: 0s;}
 
 @keyframes imagesFading {
   0% {
