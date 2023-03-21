@@ -143,13 +143,13 @@ html, body{
     animation: imagesFading 8s infinite;
 }
 
-.image_01 {background-image: url(/images/1fsCPlnnbec.jpg); animation-delay: 6s;}
+.image_01 {background-image: url(https://sun9-49.userapi.com/impg/5cyQH1CqxVFEHxBWw8iDOPonSMZoDHiupGhxdA/N5VKHk_DFgk.jpg?size=1266x1688&quality=95&sign=44f383f91efa1387cf84632e79304d0d&type=album); animation-delay: 6s;}
 
-.image_02 {background-image: url(/images/MEQ1YQkyYLY.jpg); animation-delay: 4s;}
+.image_02 {background-image: url(https://sun9-31.userapi.com/impg/40SNR-rmLA3O4SmzApsbrq6UJ3ZjrKQVpKFUpw/8HkYbLKfjCM.jpg?size=1600x1200&quality=95&sign=e953df3df77988a2aa58ce86c230527f&type=album); animation-delay: 4s;}
 
-.image_03 {background-image: url(/images/TdKwc7Sf5fI.jpg); animation-delay: 2s;}
+.image_03 {background-image: url(https://sun9-80.userapi.com/impg/ggnOSiAl6v7AOeR7BWMToALq-_Rs8jGvTapW-Q/SSN4SegeerE.jpg?size=1200x1600&quality=95&sign=9f4eab87369d8e12145b9eece7ba9692&type=album); animation-delay: 2s;}
 
-.image_04 {background-image: url(/images/zK4fwF-JeqU.jpg); animation-delay: 0s;}
+.image_04 {background-image: url(https://sun9-76.userapi.com/impg/2Goisr3Kd-UDwZJDsnXj9p99H6yd19WBNbmP6Q/mu45vbM6VH0.jpg?size=1066x1600&quality=95&sign=572e56131eff5011acb20691247ec24c&type=album); animation-delay: 0s;}
 
 @keyframes imagesFading {
   0% {
